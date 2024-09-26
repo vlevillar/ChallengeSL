@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="div-main">
       <p class="title">Agenda de reservas</p>
       <div class="container">
         <button class="buttonLeft" id="moveLeft"><</button>
