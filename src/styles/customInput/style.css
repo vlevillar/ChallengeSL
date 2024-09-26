@@ -1,0 +1,41 @@
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Este puede mantenerse, ya que cada input tiene su título */
+    margin-bottom: 15px;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center; /* Alinear icono e input verticalmente */
+    width: 100%; /* Para que el wrapper tome todo el ancho */
+  }
+  
+  .input-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #666666;
+  }
+  
+  .input-field {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-right: 30px; 
+    flex: 1;
+  }
+  
+  .end-content {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .input-icon {
+    height: 30px; 
+    width: 30px;
+  }
+  

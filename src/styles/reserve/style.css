@@ -1,0 +1,24 @@
+.reserveTitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    font-style: bold;
+    font-weight: 700;
+    color: #006755
+}
+
+.input-group {
+    display: flex; /* Alinear los inputs horizontalmente */
+    justify-content: space-between;/* Espacio entre los inputs */
+    align-items: center;
+}
+
+.button-save{
+    border: none;
+    color:white;
+    font-weight: 500;
+    background-color: #00a98f;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+  
