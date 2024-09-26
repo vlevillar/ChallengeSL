@@ -1,15 +1,15 @@
 .input-container {
     position: relative;
     display: flex;
-    flex-direction: column; /* Este puede mantenerse, ya que cada input tiene su título */
+    flex-direction: column;
     margin-bottom: 15px;
   }
   
   .input-wrapper {
     position: relative;
     display: flex;
-    align-items: center; /* Alinear icono e input verticalmente */
-    width: 100%; /* Para que el wrapper tome todo el ancho */
+    align-items: center; 
+    width: 100%;
   }
   
   .input-title {
@@ -39,3 +39,27 @@
     width: 30px;
   }
   
+  
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; /* Ajusta esto según tus necesidades */
+}
+
+.input-wrapper.invalid,
+.input-field.invalid {
+  border-color: red;
+}
+
+.error-container {
+  height: 20px;
+  width: 150px;
+  margin-top: 70px;
+  z-index: 100;
+  position: absolute;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+}

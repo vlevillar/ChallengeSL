@@ -459,8 +459,8 @@ div.vis-tooltip {
 	position: absolute;
 	color: #1a1a1a;
 	border-width: 1px;
-	border-color: #69dcac;	
-	background-color: #69dcac;
+	border-color: #fff48c;	
+	background-color: #fff48c;
 	display: inline-block;
 	z-index: 1;
 	transition: 0.15s margin-top ease-out;
@@ -468,8 +468,8 @@ div.vis-tooltip {
 }
 
 .vis-item:hover {
-	border-color: #5ec499;
-	background-color: #5ec499;
+	border-color: #fff38cb1;
+	background-color: #fff38cc6;
 }
 
 .vis-item.vis-selected {
